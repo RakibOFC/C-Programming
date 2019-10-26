@@ -1,0 +1,38 @@
+1. Write a full C program for each of the following problems:
+
+A large number of vehicles pass everyday on the Rameshuddin Road. While going into the street every vehicle needs to pay an amount of toll at the Toll Station. In needs 10 seconds for every vehicle to pay. While a vehicle is paying, other vehicles entered into the toll line needs to wait until the vehicle at the sattion finishes its payment work and leave. To make the recording system automatic, you have been hired to write the correspending C program.
+
+Input: An integer N(No. of cars). Followed by an integer in the next N line defining the time (seconds) of arrival at the toll line of each of the N cars.
+
+Output: "Total waiting time in the toll line". "Starting time of toll process" and "Ending time of the toll process" for each of the N cars.
+
+2. We have RUNU and JHUNU with us from a distant village of Bangladesh who came to this Dhaka city for the first time. Thwy have a special bag of money which gives them money every morning when they wake up from sleep. Somehow they figure out how much money each day they will be able to get from the magic bag in the next N days.
+So, now they want your help to decide where to eat in this Dhaka city. Well for your help they also provided the list below:
+	Roadside Food if the amount is 100 or less
+	Fast Food if the amount is 250 or above but less than 350
+	Kacchi if the amount is 350 or above
+	Otherwise in BFC
+
+Input: An integer N (No. of days). Followed by an integer in the next N line defining the amount of each of the N days.
+
+Output: "Roadside Food", "Fast Food", "Kacchi" or "BFC" depending on the amount of each day.
+
+		Table:
+		Sample Input:			Sample Output:
+		3				Kacchi
+		999				Roadside Food
+		9				Fast Food
+		282
+
+c) I like odd numbers a lot! I know it's your exam but you have to do me a little favor! I will give you a random integer number and you have to make it a Strongly Odd Number and check if it is a prime number or not. A strongly Odd Number is a number where every digit is an odd number. And Prime Number is a number that is divisible only by itself and 1. Write necessary C code for doing the job.
+		Table:
+		Sample Input:		Sample Output:
+		6594			59. Prime
+		9805789			9579. Not Prime
+
+d) Read 10 integers and store them in an array. Now swap the adjacent numbers in each pair in the same array.
+
+		Table:
+		Sample Input:		Sample Output:
+		2 5 7 3 1 5 9 8 2 6	5 2 3 7 5 1 8 9 6 2
+		0 1 2 3 4 5 6 7 8 9	1 0 3 2 5 4 7 6 9 8
